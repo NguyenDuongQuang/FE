@@ -1,0 +1,93 @@
+.or-option {
+  position: relative;
+  margin: 5px auto;
+}
+.or-option::before {
+  position: absolute;
+  content: "";
+  width: 35%;
+  left: 0;
+  top: 50%;
+  height: 1px;
+  background-color: #bcbcbc;
+}
+.or-option::after {
+  position: absolute;
+  content: "";
+  width: 35%;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background-color: #bcbcbc;
+}
+
+.underline-title {
+  position: relative;
+}
+.underline-title::after {
+  content: "";
+  width: 12%;
+  height: 4px;
+  background-color: #000;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  transition: 1.5s;
+}
+.underline-title:hover::after {
+  width: 100%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(90deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+}
+
+.verify-btn {
+  border-radius: 0;
+  border: none;
+  background-color: #5ab45f !important;
+}
+.verify-btn:hover {
+  filter: brightness(1.2);
+}
+
+.btn-secondary {
+  background-color: #3fc5ec !important;
+  color: #fff !important;
+  border: none !important;
+}
+.btn-secondary:hover, .btn-secondary:active {
+  filter: brightness(1.1);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: #f1f1f1;
+}
+
+.ease-trans {
+  transition: all ease-in-out 0.35s;
+}
+
+.bg-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.06);
+}
+
+.box-sha-home {
+  box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.bor-rad-8 {
+  border-radius: 8px;
+}
+
+.bor-rad-4 {
+  border-radius: 4px;
+}
+
+.item-active {
+  border: solid 1px #3a5dd9;
+  background-color: #e6eeff;
+}/*# sourceMappingURL=atomic.css.map */

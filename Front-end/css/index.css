@@ -1,0 +1,70 @@
+.Specification-item:nth-child(odd) {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}/*# sourceMappingURL=index.css.map */x);
+}
+.Related-Products .arrow-left {
+  left: 0;
+}
+.Related-Products .arrow-right {
+  right: 0;
+}
+.Related-Products .arrow:hover {
+  font-size: 52px;
+  transition: all ease 0.2s;
+}
+.Related-Products .arrow.disabled {
+  display: none;
+}/*# sourceMappingURL=index.css.map */ex.css.map */v1608136122/saleOff/laptop_baavwf.jpg");
+}
+.Discount-List.bg-2 {
+  background: url("https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608136122/saleOff/msas_xdbc6o.jpg");
+}
+.Discount-List.bg-3 {
+  background: url("https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608136566/saleOff/sda1_cexhqy.jpg");
+}
+.Discount-List.bg-4 {
+  background: url("https://res.cloudinary.com/tuan-cloudinary/image/upload/v1608136122/saleOff/router_djhtbh.jpg");
+}
+.Discount-List .header {
+  height: 64px;
+}
+.Discount-List .header-item > * {
+  color: grey;
+}
+.Discount-List .header-item.active {
+  background-color: transparent;
+}
+.Discount-List .header-item.active > * {
+  color: #f1f1f1;
+}
+.Discount-List .Related-Products {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .Discount-List .header {
+    display: none;
+  }
+  .Discount-List .countdown {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */tn-group-item:hover, .Product-Overview .btn-group-item:active {
+  filter: brightness(1.1);
+}
+.Product-Overview .ant-image-img {
+  max-height: 268px;
+  max-width: 268px;
+}
+
+@media only screen and (min-width: 767px) {
+  .Product-Overview .product-info {
+    border-bottom: none;
+  }
+}/*# sourceMappingURL=index.css.map */{
+    flex-basis: 30px !important;
+  }
+  .Admin-Page .menu li > span {
+    font-size: 150%;
+  }
+}/*# sourceMappingURL=index.css.map */
